@@ -14,9 +14,9 @@
  */
 module.exports = {
     "ui": {
-        "port": 3001
+        "port": 8101
     },
-    "files": false,
+    "files": [ "static" ],
     "watchEvents": [
         "change"
     ],
@@ -27,10 +27,10 @@ module.exports = {
         "ignoreInitial": true
     },
     "server": false,
-    "proxy": false,
-    "port": 3000,
+    "proxy": "http://localhost:8000",
+    "port": 8100,
     "middleware": false,
-    "serveStatic": [],
+    "serveStatic": [{ route: '/', dir: 'static' }],
     "ghostMode": {
         "clicks": true,
         "scroll": true,
