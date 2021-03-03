@@ -1,0 +1,19 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Administrative interface for ObjectiveCEO.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"add tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/objectiveceo/admin.git"
+  },
+  "author": "Grayson Hansard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/objectiveceo/admin/issues"
+  },
+  "homepage": "https://github.com/objectiveceo/admin#readme"
+}
